@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 50px auto 60px;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+form {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 2rem;
+    display: block;
+}
+
+.container section textarea {
+    font-size: 1em;
+    padding: 5px;
+    width: 60%;
+}
+
+#selector {
+    width: 60%;
+    margin: 20px auto;
+}
+
+#effect {
+    display: block;
+    text-align: center;
+    padding: 4px 0;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.btn-container {
+    width:53%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse & Traverse</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+    <h1>Transreverser</h1>
+    <main class="container">
+
+
+        <form class="principal">
+
+            <section id="introduce">
+                <label for="original">Introduce your thoughts</label>
+                <textarea name="original" id="original" cols="30" rows="10" placeholder="...tahw oS"></textarea>
+            </section>
+
+            <label for="effect" id="selector"> Effects
+                <select name="effect" id="effect">
+                    <option value="">Select distorsion</option>
+                    <option value="reverse">Reverse</option>
+                    <option value="flip">Flip</option>
+                    <option value="reverseflip">Flip and Reverse</option>
+                    <option value="parenthesis">Parenthesis</option>
+                </select>
+            </label>
+
+
+
+            <section id="result">
+                <label for="transformed">What did you expect?</label>
+                <textarea name="transformed" id="transformed" cols="30" rows="10" readonly="readonly"></textarea>
+            </section>
+
+            <div class="btn-container">
+                <button class="btn" onclick="copyText()">Copy that!</button>
+            </div>
+
+        </form>
+
+    </main>
+
+
+
+
+
+
+
+
+    <script src="js/unicodeConversor.js"></script>
+    <script src=" js/main.js"></script>
+</body>
+
+</html>
